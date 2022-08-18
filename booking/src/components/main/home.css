@@ -1,0 +1,103 @@
+.home{
+    display: flex;
+    justify-content: center;
+    
+}
+.homeContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.homes{
+    height: 50px;
+    border: 0.5px solid grey;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    bottom: 30px;
+
+}
+.homeTitle{
+    margin-top: 170px;
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+.homeDisc{
+    font-size: 18px;
+    color: gray;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+    max-width:1024px ;
+    width: 100%;
+    text-align: left;
+    font-family: arial;
+    height: 180px;
+}
+.card button{
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #1eabd6;
+    text-align: center;
+    font-size: 18px;
+    
+    
+
+}
+.card h1{
+    font-size: 18px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    
+}
+.card p{
+    
+    margin-left: 300px;
+
+    
+}
+.image{
+    width: 25%;
+    height: 170px;
+    margin: 5px 5px  0 5px ;
+    float: left;
+}
+.third{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 328PX;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    float: left;
+    margin: 5px;
+
+}
+.third:hover{
+    border: 0.5px solid #777;
+}
+.third img{
+    width: 100%;
+    height: 300px;
+}
+.third h5{
+    padding: 15px;
+    text-align: center;
+}
+.row-padding{
+    float: left;
+}
+.exploreContainer{
+    margin-top: 50px;
+}

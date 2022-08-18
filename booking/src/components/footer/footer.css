@@ -1,0 +1,53 @@
+.nav{
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+.footerContainer{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.footerList{
+    display: flex;
+    gap: 40px;
+}
+.listItem{
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-bottom: white 1px solid;
+   
+}
+.listItem:hover{
+    color: gray;
+}
+.copyright{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.nav button{
+    margin-left: 400px;
+color: #003580;
+background-color: white;
+text-align: center;
+height: 50px;
+width: 20%;
+font-size: 15px;
+border: 0px;
+margin-bottom: 15px;
+
+}
+.nav button:hover{
+    color: white;
+    background-color: #003580;
+}
+.line{
+    border-bottom: white 1px solid;
+    width: 100%;
+}

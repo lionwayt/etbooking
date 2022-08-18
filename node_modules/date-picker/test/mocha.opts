@@ -1,0 +1,5 @@
+--recursive
+--ui bdd
+--reporter dot
+--require test/common.js
+--globals Hogan,document,DatePicker

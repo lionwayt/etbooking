@@ -1,0 +1,41 @@
+
+.header{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: #003580;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 23px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.headerItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Button{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+.Button:hover{
+    background-color:#003580 ;
+    color: white;
+    border-color: white;
+}
+

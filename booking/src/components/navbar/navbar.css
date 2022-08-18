@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+  }
+  
+  .navContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  }
+  
+  .navList {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navListItem {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .navListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .navListItem:hover {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .headerTitle {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 48px;
+  }
+  
+  .headerTitle:hover {
+    transform:initial;
+  }
+  
+  .headerDisc {
+    margin: 4px 0px;
+    font-size: 24px;
+  }
+  .headerSearch{
+    height: 30px;
+    border: 3px solid #febb02;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 175px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon{
+    color: lightgrey;
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+.check{
+  float: left;
+  margin-top: 100px;
+  color: black;
+  
+  
+}
+
+
+  

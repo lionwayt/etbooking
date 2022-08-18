@@ -1,0 +1,21 @@
+<!doctype html>
+
+<link href=../src/dp.css rel=stylesheet>
+
+<h1>Date picker</h1>
+<div id=static-container></div>
+
+<div><input><button onclick="floater.toggle(this.previousElementSibling)">Toggle</button></div>
+
+<div id=message-area></div>
+
+<script src=../src/dp.js></script>
+
+<script>
+var dp = new DatePicker().show('#static-container')
+  , floater = new DatePicker()
+dp.on('change', function(date) {
+	$('message-area').innerHTML = 'Date selected: '+ date.toISOString();
+});
+function $(id) { return document.getElementById(id); }
+</script>
