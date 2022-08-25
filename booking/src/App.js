@@ -7,8 +7,9 @@ import Header from './components/header/header';
 import'./components/header/header.css';
 import Home from './components/main/home';
 import'./components/main/home.css';
+import MailList from './components/mailList/MailList'
 import Footer from './components/footer/footer';
-import './components/footer/footer.css';
+
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Header/>
       <Navbar/> 
       <Home/>
+      <MailList/>
       <Footer/>
 
     </div>

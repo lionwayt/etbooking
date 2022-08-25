@@ -4,7 +4,11 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "date-fns": "^2.29.2",
+    "date-range": "^0.0.2",
     "react-calendar": "^3.7.0",
-    "react-daterange-picker": "^2.0.1"
+    "react-date-range": "^1.4.0",
+    "react-daterange-picker": "^2.0.1",
+    "react-router-dom": "^6.3.0"
   }
 }

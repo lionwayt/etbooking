@@ -1,53 +1,29 @@
-.nav{
-    background-color: #003580;
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
+.footer{
+  width: 100%;
+  width: 1024px;
+  font-size: 12px;
+
 
 }
 
-.footerContainer{
-    width: 100%;
-    max-width: 1024px;
-    margin: 20px 0px 100px 0px;
+.fLists{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 100px;
 }
-.footerList{
-    display: flex;
-    gap: 40px;
-}
-.listItem{
-    margin-top: 50px;
-    margin-left: 70px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    border-bottom: white 1px solid;
-   
-}
-.listItem:hover{
-    color: gray;
-}
-.copyright{
-    margin-top: 100px;
-    margin-left: 300px;
-}
-.nav button{
-    margin-left: 400px;
-color: #003580;
-background-color: white;
-text-align: center;
-height: 50px;
-width: 20%;
-font-size: 15px;
-border: 0px;
-margin-bottom: 15px;
 
+.fList{
+  list-style: none;
+  padding: 0;
 }
-.nav button:hover{
-    color: white;
-    background-color: #003580;
+
+.fListItem{
+  margin-bottom: 10px;
+  color: #003580;
+  cursor: pointer;
 }
-.line{
-    border-bottom: white 1px solid;
-    width: 100%;
+.fText{
+  text-align: center;
 }
